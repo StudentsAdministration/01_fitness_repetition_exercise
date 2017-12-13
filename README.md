@@ -52,3 +52,5 @@ Make your program able to add a new user to the text files through input from th
  
 
 
+
+_<div align="right">&copy; clbo@kea.dk</div>_
