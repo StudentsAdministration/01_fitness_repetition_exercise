@@ -1,8 +1,13 @@
 # #1: Fitness Repetition Exercise 
 
 
-In this exercise you are going to make a program that can show lists of Employees and members of a Fitness Club.
+## Added teachers materials
 
+* .docx, .pdf, .epub, .lyx, .tex, .html versions
+* [Documents folder](/documents)
+
+
+In this exercise you are going to make a program that can show lists of Employees and members of a Fitness Club.
 ## Employees
 There are 2 types of Employees:
 
