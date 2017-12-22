@@ -1,0 +1,568 @@
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /Users/clbo/Google Drive/KEA_Macbook/SoftwareKonstruktion/2.semester/StudentsAdministration_baseorganization_on_github/01_fitness_repetition_exercise/
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{fitness-repetition-exercise}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+#1: Fitness Repetition Exercise
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fitness-repetition-exercise"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{added-teachers-materials}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Added teachers materials
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "added-teachers-materials"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+.docx, .pdf, .epub versions 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Documents folder"
+target "/documents"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this exercise you are going to make a program that can show lists of Employees and members of a Fitness Club. ## Employees There are 2 types of Employees: * Administration personnel * Instructors
+\end_layout
+
+\begin_layout Standard
+The administration personnel are employed full time (37 hours a week), and all have a fixed salary of 23000 a month, and have 5 weeks of vacation a year.
+\end_layout
+
+\begin_layout Standard
+Instructors a hired on an hourly basis, and are payed 199 per hour. They don't have any paid vacation.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{members}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Members
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "members"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The members can have 2 types of membership * Basic * Full The Basic membership costs 199.- a month, and the Full membership 299,-
+\end_layout
+
+\begin_layout Standard
+You should make a program that consists of the following Classes and uses inheritance in the specified way:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename img/classdiagram.png
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fitness Class Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then make a file containing a main method and call the file FitnessMain.java. In this file you should write some code that prints out something like this in your console. (the data (names, cpr etc.) are up to you to decide, they don't have to be the same as here).
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename img/consoleoutput1.png
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Console Output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{read-data-from-a-text-file}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Read data from a text file
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "read-data-from-a-text-file"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now make a text file named persons.txt. This file should contain the name and cpr of all employees and all members. Every person should be on a separate line and there should be a blank space between the name and the cpr number.
+\end_layout
+
+\begin_layout Standard
+Make a new file called fileHandling.java and in this file should be the code for reading from the persons.txt file and adding it to an ArrayList of Person. You will have to use a Scanner Object to read from the file. Make one method that reads from the text file and adds it to the ArrayList (this method could be private). and make a get method that returns an ArrayList of Person and call that method in your main method. Then print out the content in the console. The console should look something like this:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename img/consoleoutput2.png
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Console Output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If you made it this far you should be happy !!
+\end_layout
+
+\begin_layout Standard
+If you feel like it you could do the same for Employees only and Members Only. Keep it 
+\begin_inset Quotes eld
+\end_inset
+
+simple
+\begin_inset Quotes erd
+\end_inset
+
+ and create a unique text file for each so you will end up with 3 text files: persons.txt, employees.txt and members.txt
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{xtra}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Xtra
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "xtra"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Make an adjustment to the program so the user can search for a member or employee by typing the name or cpr number of a person in the console. Then show this person's data in the console. You have to use the ArrayList method 
+\begin_inset Quotes eld
+\end_inset
+
+contains
+\begin_inset Quotes erd
+\end_inset
+
+ to search an ArrayList (p.
+\begin_inset space ~
+
+\end_inset
+
+682 in the book).
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{xtra-2}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Xtra 2
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "xtra-2"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Make your program able to add a new user to the text files through input from the console.
+\end_layout
+
+\begin_layout Standard
+_
+\end_layout
+
+\begin_layout Standard
+Â© clbo@kea.dk
+\end_layout
+
+\begin_layout Standard
+_ 
+\end_layout
+
+\end_body
+\end_document

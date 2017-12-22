@@ -1,4 +1,12 @@
 # #1: Fitness Repetition Exercise 
+
+
+## Added teachers materials
+
+* .docx, .pdf, .epub, .lyx, tex versions
+* [Documents folder](/documents)
+
+
 In this exercise you are going to make a program that can show lists of Employees and members of a Fitness Club.
 ## Employees
 There are 2 types of Employees:
@@ -17,7 +25,7 @@ The Basic membership costs 199.-  a month, and the Full membership 299,-
 
 You should make a program that consists of the following Classes and uses inheritance in the specified way: 
 
-![Fitness Class Diagram](/img/classdiagram.png)
+![Fitness Class Diagram](img/classdiagram.png)
 
 
 
@@ -26,7 +34,7 @@ Then make a file containing a main method and call the file FitnessMain.java.
 In this file you should write some code that prints out something like this in your console.
 (the data (names, cpr etc.) are up to you to decide, they don't have to be the same as here).
 
-![Console Output](/img/consoleoutput1.png)
+![Console Output](img/consoleoutput1.png)
 
 
 
@@ -37,7 +45,7 @@ Make a new file called fileHandling.java and in this file should be the code for
 Make one method that reads from the text file and adds it to the ArrayList (this method could be private). and make a get method that returns an ArrayList of Person and call that method in your main method. Then print out the content in the console.
 The console should look something like this:
 
-![Console Output](/img/consoleoutput2.png)
+![Console Output](img/consoleoutput2.png)
 
 If you made it this far you should be happy !!
 
