@@ -1,15 +1,11 @@
 # #1: Fitness Repetition Exercise 
 
 
-## Added teachers materials
-
-* .docx, .pdf, .epub, .lyx, tex versions
-* [Documents folder](/documents)
-
-
 In this exercise you are going to make a program that can show lists of Employees and members of a Fitness Club.
+
 ## Employees
 There are 2 types of Employees:
+
 * Administration personnel
 * Instructors    
 
@@ -19,6 +15,7 @@ Instructors a hired on an hourly basis, and are payed 199 per hour. They don't h
 
 ## Members
 The members can have 2 types of membership
+
 * Basic
 * Full
 The Basic membership costs 199.-  a month, and the Full membership 299,- 
